@@ -42,3 +42,15 @@
 * *Visual Studio Code*: Text editor with auto completion and highlighting to improve code readability.
 With the code-runner extension, it can also run javascript code directly, so that we can see the results of our changes. We can also use the terminal feature to interact with the nodebots tutorials.
 
+## Notes from intro with Angela and Brent:
+* Missing cool introduction file
+* Introduce self
+* Describe screen (file explorer, text editor, console output)
+* Explain console.log: logs to console
+* Variables are case sensitive!
+* Cover comments in first file.
+* Call nodejsrules() in functions file
+* Encourage re-running the file and correlating console output to each line
+* Step through with debugger
+* Explain 'call', 'execute', etc...
+
