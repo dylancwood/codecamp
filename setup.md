@@ -36,4 +36,30 @@ This is how to install and set up your computer for programming using Node.js
 ## Run
 1. In the terminal, type `javascripting` and press enter
 
+## Code
+1. Write your code in a file and save it.
+
+## Verify
+1. In the terminal, type the command `javascripting verify introduction.js` and press enter.
+2. You may need to scroll up to see whether you were successful or not.
+
+# Nodebots workshop
+## References
+* Johnny Five examples. These can be useful to learn more about the Johnny Five functions that are available to you. [http://johnny-five.io/examples/](http://johnny-five.io/examples/)
+## Install
+1. Open Visual Studio Code by clicking the Windows icon at the bottom left and typing `code`. Click on `Visual Studio Code`
+2. Click `View` -> `Integrated Terminal`
+3. In the terminal, type `npm install -g nodebot-workshop` and press enter
+
+## Run
+1. In the terminal, type `nodebot-workshop` and press enter
+
+## Code
+1. Write your code in a file and save it.
+
+## Verify
+1. In the terminal, type the command `nodebot-workshop verify blink-blink.js` and press enter.
+2. You may need to scroll up to see whether you were successful or not.
+
+
 
