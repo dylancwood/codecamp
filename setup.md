@@ -22,3 +22,18 @@ This is how to install and set up your computer for programming using Node.js
 3. Type `ext install` and press `enter`
 4. Search for `code runner`
 5. Install Code Runner and then click the button to `Reload`.
+
+## Open your folder in VS Code
+1. Open Visual Studio Code by clicking the Windows icon at the bottom left and typing `code`. Click on `Visual Studio Code`
+2. Click `File` -> `Open Folder` (not `Open File`)
+
+# Javascripting workshop
+## Install
+1. Open Visual Studio Code by clicking the Windows icon at the bottom left and typing `code`. Click on `Visual Studio Code`
+2. Click `View` -> `Integrated Terminal`
+3. In the terminal, type `npm install -g javascripting` and press enter
+
+## Run
+1. In the terminal, type `javascripting` and press enter
+
+
