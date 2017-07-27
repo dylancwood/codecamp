@@ -74,7 +74,7 @@ const five = require('johnny-five')
 const board = new five.Board({ port: 'COM4' })
 board.on('ready', function () {
 
-  var led = new five.Led({
+  const led = new five.Led({
       pin: 13
   })
 
