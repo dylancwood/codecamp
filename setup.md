@@ -46,10 +46,15 @@ This is how to install and set up your computer for programming using Node.js
 # Nodebots workshop
 ## References
 * Johnny Five examples. These can be useful to learn more about the Johnny Five functions that are available to you. [http://johnny-five.io/examples/](http://johnny-five.io/examples/)
-## Install
+
+## Install Workshop Program
 1. Open Visual Studio Code by clicking the Windows icon at the bottom left and typing `code`. Click on `Visual Studio Code`
 2. Click `View` -> `Integrated Terminal`
 3. In the terminal, type `npm install -g nodebot-workshop` and press enter
+
+## Install Johnny Five
+1. Open your folder in Visual Studio Code
+2. In terminal, type `npm install johnny-five` and press enter
 
 ## Run
 1. In the terminal, type `nodebot-workshop` and press enter
@@ -62,10 +67,11 @@ This is how to install and set up your computer for programming using Node.js
 2. You may need to scroll up to see whether you were successful or not.
 
 
+
 # Blink Blink Code
 ```javascript
-var five = require('johnny-five')
-var board = new five.Board()
+const five = require('johnny-five')
+const board = new five.Board({ port: 'COM4' })
 board.on('ready', function () {
 
   var led = new five.Led({
