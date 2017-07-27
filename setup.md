@@ -62,4 +62,17 @@ This is how to install and set up your computer for programming using Node.js
 2. You may need to scroll up to see whether you were successful or not.
 
 
+# Blink Blink Code
+```javascript
+var five = require('johnny-five')
+var board = new five.Board()
+board.on('ready', function () {
 
+  var led = new five.Led({
+      pin: 13
+  })
+
+  led.blink(1000)
+
+})
+```
